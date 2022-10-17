@@ -13,10 +13,10 @@ html {
 
 h1 {
     color: #063255;
-    width: 122px;
+    width: 550px;
     height: 28px;
     display: flex;
-    justify-content: center;
+    justify-content: start;
 
 }
 
@@ -59,7 +59,7 @@ section:nth-child(2){
     background:#DCEAF5;
     height:700px;
 }
-.parag{
+.headerText{
     width:400px;
 }
 h2{
@@ -69,4 +69,39 @@ h2{
 }
 .firstarticle{
     display: flex;
+    align-items: center;
+    width: 1000px;
+    height: 500px;
+} 
+.Headerimg{
+    display: flex;
+    width: 1700px;
+    height:600px;
+    justify-content: end;
+    align-items: flex-end;
+}
+.buttons{
+    background: #F58A07;
+    width: 170px;
+    height: 40px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons a{
+    text-decoration: none;
+    color: white;
+}
+.buttonservice{
+    display: flex;
+    width: 350px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
 }
