@@ -265,14 +265,14 @@ h2 {
 /* section 4 ehlewe*/
 .AboutSection {
     display: flex;
-    height: 800px;
+    height: 1000px;
     align-items: center;
     width: 1280px;
 }
 
 .AboutSection img {
-    width: 600px;
-    height: 600px;
+    width: 1400px;
+    height: 700px;
     border-radius: 20px;
 }
 
@@ -300,9 +300,10 @@ h2 {
     display: flex;
     width: 90%;
     justify-content: space-between;
+    height: 400px;
 }
 
-.AboutFeature h5 {
+.Aboutt h5 {
     color: #F58A07;
     font-family: 'Inter', sans-serif;
     font-size: 35px;
@@ -311,12 +312,13 @@ h2 {
     align-items: start;
 }
 
-.AboutFeature h6 {
+.Aboutt h6 {
     color: #0D1317;
     font-size: 25px;
+    height: 4px;
 }
 
-.AboutFeature p {
+.Aboutt p {
     line-height: 30px;
 }
 
@@ -331,9 +333,10 @@ h2 {
 
 .ServiceText {
     width: 48%;
-    height: 600px;
+    height: 500px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .ServiceSection img {
@@ -363,13 +366,16 @@ h2 {
     line-height: 65px;
     font-size: 45px;
     color: #0D1317;
-    height: 250px;
+    height: 170px;
     display: flex;
     align-items: end;
+    background-color: aqua;
 }
 .ServiceText p{
     width: 80%;
     line-height: 28px;
+    height: 200px;
+   
 }
 .ServiceButton{
     height: 40px;
