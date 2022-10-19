@@ -1,0 +1,275 @@
+.test{
+    background-color: #DCEAF5;
+    height: 700px;
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+}
+section:nth-child(2),
+section:nth-child(4){
+    background: #DCEAF5;
+    height: 700px;
+}
+section:nth-child(9){
+    background: #DCEAF5;
+    height: 820px;
+}
+/* section 1*/
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 105%;
+    height: 730px;
+}
+.headerText h2 {
+    color: #1D3444;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 70px;
+    margin-top: 0;
+    width: 650px;
+}
+.headerText p {
+    color: #5B5B5B;
+    line-height: 30px;
+    width: 650px;
+}
+.buttonservice {
+    display: flex;
+    justify-content: space-between;
+    width: 440px;
+}
+.buttonservice p{
+    width: 200px;
+    color: #1D3444;
+}
+.buttons {
+    background: #F58A07;
+    width: 199px;
+    height: 55px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons a {
+    color: white;
+}
+.worked {
+    display: flex;
+    height: 50px;
+    align-items: end;
+}
+.Headerlogos {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.Headerimg {
+    height: 620px;
+    width: 790px;
+}
+/* section 2*/
+.HelpSection h2 {
+    font-size: 50px;
+    width: 740px;
+    font-weight: 600;
+    color: #1D3444;
+    line-height: 55px;
+    height: 210px;
+    display: flex;
+    align-items: end;
+}
+.HelpSection p {
+    font-size: 16px;
+    width: 740px;
+    color: #5B5B5B;
+    display: flex;
+    height: 80px;
+    line-height: 30px;
+}
+.HelpPosts {
+    display: flex;
+}
+.Help {
+    width: 500px;
+}
+.Help img {
+    border-radius: 20px;
+    width: 90%;
+    height: 230px;
+}
+.Help h3 {
+    font-size: 27px;
+    color: #0D1317;
+    font-weight: 500;
+    height: 20px;
+}
+.Help p {
+    color: #5B5B5B;
+    width: 380px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.HelpButtons a {
+    color: #F58A07;
+}
+.HelpButtons:after {
+    content: "\2192";
+    color: #F58A07;
+    width: 35px;
+}
+.HelpButtons {
+    height: 50px;
+    width: 130px;
+}
+.HelpSection {
+    height: 840px;
+}
+/* section 3 */
+.mainfeaures {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+}
+.mainfeaures h4 {
+    font-size: 35px;
+    width: 620px;
+    color: #0D1317;
+}
+.mainfeaures p{
+    width: 620px;
+    height: 150px;
+    color: #1D3444;
+    font-size: 18px;
+}
+.FeauresSquare {
+    background: #FFFFFF;
+    width: 400px;
+    height: 280px;
+    border-radius: 20px;
+    padding:40px ;
+}
+.Feaures {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.FeauresSquare img {
+    width: 43px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.FeauresSquare h4 {
+    font-size: 25px;
+    color: #0D1317;
+    height: 50px;
+    width: 80%;
+    margin: 5px 0;
+
+}
+.FeauresSquare p {
+    line-height: 28px;
+    width: 300px;
+    margin-top: 0;
+}
+/*  section 4 ehlew */
+.AboutSection {
+    display: flex;
+    height: 667px;
+    align-items: center;
+    width: 1280px;
+}
+.AboutSection img {
+    width: 1400px;
+    height: 700px;
+    border-radius: 20px;
+}
+.AboutText {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.AboutText h5 {
+    width: 90%;
+    line-height: 52px;
+    font-size: 45px;
+    margin-bottom:20px;
+    font-weight: 600;
+    color: #0D1317;
+}
+.AboutText p {
+    width: 90%;
+    line-height: 25px;
+    margin: 0;
+    color: #5B5B5B;
+}
+.AboutFeature {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    height: 400px;
+}
+.Aboutt h5 {
+    color: #F58A07;
+    font-family: 'Inter', sans-serif;
+    font-size: 35px;
+}
+.Aboutt h6 {
+    color: #0D1317;
+    font-size: 25px;
+}
+.Aboutt p {
+    line-height: 28px;
+}
+.orange{
+    background: #F58A07;
+    mix-blend-mode: multiply;
+    position: absolute;
+    width:153px;
+    height: 700px; 
+    right: 775px;
+    border-radius: 20px 0 0 20px;
+}
+/* section 5 ehlewe*/
+
+
+
+/* section 6 ehlewe*/
+.CTASection{
+    display: flex;
+}
+.CTALeft{
+    background: url(./images/experience-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 620px;
+}
+.CTARight{
+    background: #F58A07;
+    width: 50%;
+    height: 620px;
+    padding:130px 160px 160px 160px;
+}
+.CTARight h2{
+    color: white;
+    font-size: 48px;
+    width: 500px;
+    font-weight: 600;
+}
+.CTAButton a{
+    color: #F58A07;
+} 
+.CTAButton{
+    width: 250px;
+    height: 50px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+}

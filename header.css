@@ -24,13 +24,11 @@ header a {
     color: #063255;
 }
 .button {
-    display: flex;
+    padding: 15px 20px 30px 25px;
     width: 170px;
     height: 54px;
     background: rgba(245, 138, 7, 0.1);
     border-radius: 31px;
-    justify-content: center;
-    align-items: center;
 }
 .button a {
     color: #F58A07;
