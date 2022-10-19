@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    align-items: flex-end;
+}
+h1 {
+    color: #063255;
+    width: 550px;
+    height: 28px;
+    display: flex;
+    justify-content: start;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    width: 550px;
+    height: 20px;
+    justify-content: space-around;
+}
+header a {
+    color: #063255;
+}
+.button {
+    display: flex;
+    width: 170px;
+    height: 54px;
+    flex-direction: row;
+    background: rgba(245, 138, 7, 0.1);
+    border-radius: 31px;
+    justify-content: center;
+    align-items: center;
+}
+.button a {
+    color: #F58A07;
+}
