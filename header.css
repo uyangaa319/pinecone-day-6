@@ -1,6 +1,7 @@
 .navbar {
     display: flex;
-    align-items: flex-end;
+    height: 80px;
+    align-items: center;
 }
 h1 {
     color: #063255;
@@ -8,6 +9,7 @@ h1 {
     height: 28px;
     display: flex;
     justify-content: start;
+    align-items: center;
 }
 nav ul {
     display: flex;
@@ -16,6 +18,7 @@ nav ul {
     width: 550px;
     height: 20px;
     justify-content: space-around;
+    font-weight: 600;
 }
 header a {
     color: #063255;
@@ -24,7 +27,6 @@ header a {
     display: flex;
     width: 170px;
     height: 54px;
-    flex-direction: row;
     background: rgba(245, 138, 7, 0.1);
     border-radius: 31px;
     justify-content: center;
