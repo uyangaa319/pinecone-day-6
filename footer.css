@@ -1,0 +1,50 @@
+footer {
+    background: #063255;
+    height: 470px;
+    color: aliceblue;
+}
+
+.FooterTop {
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.FooterBottom {
+    display: flex;
+}
+
+.FooterLink {
+    display: flex;
+}
+.FooterLeft p {
+    font-size: 35px;
+}
+
+.FooterTop h6 {
+    font-size: 18px;
+}
+
+footer ol {
+    list-style: none;
+}
+footer a {
+    color: aliceblue;
+}
+.Company{
+    width:95px ;
+    height: 200px;
+}
+.Connect{
+    width:150px;
+    height: 200px;
+}
+.Connect ol{
+    padding: 0;
+}
+.subscribe{
+    width: 300px;
+    height: 200px;
+}
