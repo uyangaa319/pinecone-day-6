@@ -1,6 +1,6 @@
 footer {
     background: #063255;
-    height: 470px;
+    height: 500px;
     color: aliceblue;
 }
 .FooterTop {
@@ -16,7 +16,7 @@ footer {
 }
 footer ol {
     list-style: none;
-    line-height: 40px;
+    line-height: 44px;
     padding: 0;
 }
 footer a {
@@ -24,11 +24,12 @@ footer a {
 }
 .FooterLeft{
     width: 350px;
-    height: 200px;
+    height: 100px;
 }
 .FooterLeft p {
     font-size: 35px;
     font-weight: 600;
+    line-height: 40px;
 }
 .Company{
     width:95px ;
@@ -65,6 +66,7 @@ footer a {
 .FooterBottom {
     display: flex;
     justify-content: space-between;
+    padding: 30px;
 }
 .FooterLink {
     display: flex;
@@ -74,4 +76,20 @@ footer a {
 .BottomText:before{
     content: "\00A9";
     margin-right: 5px;
+}
+.social a{
+    margin: 8px;
+}
+.social{
+    width: 20px;
+    height: 140px;
+    display: flex;
+}
+.BottomLeft{
+    background: #F58A07;
+    width: 60px;
+    height: 150px;
+    position: absolute;
+    top:6678px ;
+    border-radius: 0 30px 0 0 ;
 }
