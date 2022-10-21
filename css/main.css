@@ -232,6 +232,9 @@ section:nth-child(9){
 /* section 5 */
 .serviceSection {
     position: relative;
+    background-color: #DCEAF5;
+    border-radius: 20px;
+    height: 650px;
 }
 .serviceSection .ribbon {
     position: absolute;
@@ -241,14 +244,8 @@ section:nth-child(9){
 .innerService {
     display: flex;
     width: 100%;
-    height: 650px;
-    align-items: center;
+    align-items: end;
     justify-content: space-around;
-    background-color: #DCEAF5;
-    border-radius: 20px;
-}
-.serviceText {
-    width: 650px;
 }
 .serviceImg {
     background: url(../images/team.png);
@@ -260,27 +257,29 @@ section:nth-child(9){
 }
 .serviceSection ul {
     display: flex;
-    width: 540px;
-    padding-left: 0;
-    justify-content: space-between;
+    width: 550px;
+    padding: 50px 0 0 0;
+    justify-content: space-around;
+    margin-left: 35px;
 }
 .serviceSection li {
     color: rgba(6, 50, 85, 0.3);
     border: 1px solid #A8BCCC;
     border-radius: 30px;
-    padding: 5px 15px;
+    padding: 5px 20px;
 }
 .serviceText h6 {
     line-height: 55px;
     font-size: 45px;
     color: #0D1317;
     height: 170px;
-    margin: 0 0 30px 0;
+    margin: 50px 0 30px 0;
     width: 550px;
 }
-.ServiceText p {
+.serviceText p {
     line-height: 28px;
-    width: 530px;
+    width: 510px;
+    margin-bottom: 30px;
 }
 .serviceButton {
     height: 40px;
@@ -295,7 +294,6 @@ section:nth-child(9){
     color: #F58A07;
     margin-right: 10px;
 }
-
 .serviceOrange{
     background: #F58A07;
     mix-blend-mode: multiply;
@@ -304,7 +302,7 @@ section:nth-child(9){
     height: 460px; 
     border-radius: 20px 0 0 20px;
 }
-.serviceText .serviceList{
+.serviceSection .serviceList{
     color: #F58A07; 
     background-color:#FFFFFF;  
     border: solid #FFFFFF 1px;
@@ -423,7 +421,6 @@ section:nth-child(9){
 .BlogItem {
     display: flex;
     justify-content: space-between;
-    width:1300px;
     align-items: end;
     height: 550px;
 }
@@ -436,8 +433,6 @@ section:nth-child(9){
 }
 .ItemContent img{
     border-radius: 20px 20px 0 0;
-    width: 400px;
-    height: 230px;
 }
 .BlogBg h6 {
     font-size: 24px;

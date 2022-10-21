@@ -1,0 +1,105 @@
+.job {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.careerHeader h2 {
+    color: #1D3444;
+    font-size: 65px;
+}
+
+.jobLeft {
+    width: 640px;
+}
+
+.jobright {
+    width: 165px;
+}
+
+.firstText {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.secondText {
+    font-size: 18px;
+    color: #5B5B5B;
+    line-height: 30px;
+}
+
+/* section 2*/
+.careerDetails {
+    background: #C1E4FF4D;
+    height: 435px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.details .first {
+    color: #F58A07;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+
+.details .second {
+    color: #0D1317;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.detailTexts {
+    width: 850px;
+    height: 310px;
+}
+
+.detailTexts p {
+    color: #5B5B5B;
+    line-height: 28px;
+}
+
+.details {
+    height: 310px;
+}
+
+/* section 3*/
+.applySection h3 {
+    font-size: 48px;
+}
+
+.input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input p {
+    color: #9C9C9C;
+    font-family: 'Inter', sans-serif;
+    background: #D2DAED2B;
+    width: 625px;
+    height: 55px;
+    padding: 15px 0 5px 25px;
+    border-radius: 30px;
+}
+
+.input .item {
+    width: 1280px;
+    height: 215px;
+}
+
+.careerbutton a {
+    color: #ffffff;
+}
+
+.careerbutton {
+    background: #F58A07;
+    border-radius: 31px;
+    width: 120px;
+    height: 55px;
+    padding: 13px 0 0 30px;
+}

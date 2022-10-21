@@ -59,3 +59,52 @@ section:nth-child(2){
     content: "\2192";
     color: #F58A07;
 }
+/* Section 2*/
+.allBlog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.latestSection h4{
+    font-size: 48px;
+}
+.blogItem{
+    background: #EDF7FF;
+    border-radius:20px;
+    height: 530px;
+    width: 400px;
+    margin-bottom: 40px;
+}
+.blogItem img{ 
+    border-radius:20px 20px 0 0;
+}
+.blogContent h5{
+    font-size: 24px;
+    color: #0D1317;
+    font-weight: 500;
+    height: 72px;
+    width: 335px;
+    margin: 0 0 20px 0;
+}
+.blogContent p{
+    color: #5B5B5B;
+    height: 72px;
+    width: 335px;
+    line-height: 30px;
+}
+.blogContent{
+    padding: 30px;
+}
+.BlogButtons{
+    height: 50px;
+    width: 150px;
+    margin-top: 35px;
+}
+.BlogButtons a {
+    color: #F58A07;
+}
+.BlogButtons:after {
+    content: "\2192";
+    color: #F58A07;
+    margin-left: 5px;
+}
