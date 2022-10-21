@@ -2,6 +2,7 @@ footer {
     background: #063255;
     height: 500px;
     color: aliceblue;
+    position: relative;
 }
 .FooterTop {
     display: flex;
@@ -90,6 +91,15 @@ footer a {
     width: 60px;
     height: 150px;
     position: absolute;
-    top:6678px ;
     border-radius: 0 30px 0 0 ;
+    bottom: 0;
+}
+.BottomRight{
+    background: #F58A07;
+    width: 55px;
+    height: 290px;
+    position: absolute;
+    border-radius: 30px 0 0 30px ;
+    right: 0;
+    top: 70px;
 }

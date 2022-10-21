@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./global.css">
-    <link rel="stylesheet" href="./header.css">
-    <link rel="stylesheet" href="./footer.css">
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href=".//css/header.css">
+    <link rel="stylesheet" href=".//css/footer.css">
+    <link rel="stylesheet" href=".//css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -143,34 +143,39 @@
                         </div>
                     </div>
                 </div>
-                <img src="./images/about-image.png" alt="">
-                <div class="orange"></div>
+                <div class="AboutImg">
+                    <div class="orange"></div>
+                </div>
             </article>
         </div>
     </section>
     <section>
         <div class="container test">
-            <article class="ServiceSection">
-                <div class="Ribbon">
-                    <img src="./images/Ribbon.png" alt="">
-                </div>
-                <div class="ServiceText">
+            <article class="serviceSection">
+                <div>
                     <ul>
-                        <li style="color: #F58A07; background-color:#FFFFFF;  border: solid #FFFFFF 1px;">Business
-                            Strategy</li>
+                        <li class="serviceList">Business Strategy</li>
                         <li>Digitalization</li>
                         <li>Risk assessment</li>
                     </ul>
-                    <h6>Helping clients with research and strategy for their business</h6>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea assumenda et cumque dolor dicta
-                        provident eveniet repellendus id quisquam laudantium ut, sunt quo sit quas recusandae corporis,
-                        ullam aspernatur necessitatibus.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores magni odit soluta dolore, vel
-                        amet.</p>
-                    <div class="ServiceButton"><a href="#">See all services</a></div>
+                    </div>
+                <div class="innerService">
+                    <div class="ribbon">
+                        <img src="./images/Ribbon.png" alt="">
+                    </div>
+                    <div class="serviceText">
+                        <h6>Helping clients with research and strategy for their business</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea assumenda et cumque dolor dicta
+                            provident eveniet repellendus id quisquam laudantium ut, sunt quo sit quas recusandae corporis,
+                            ullam aspernatur necessitatibus.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores magni odit soluta dolore, vel
+                            amet.</p>
+                        <div class="serviceButton"><a href="#">See all services</a></div>
+                    </div>
+                    <div class="serviceImg">
+                        <div class="serviceOrange"></div>
+                    </div>
                 </div>
-                <img src="./images/team.png" alt="">
-                <div class="ServiceOrange"></div>
             </article>
         </div>
     </section>
@@ -185,27 +190,29 @@
     </section>
     <section>
         <div class="container">
-            <article class="VideoSection">
-                <div class="VideoLeft">
+            <article class="videoSection">
+                <div class="videoLeft">
                     <h6>Finsweet Was A dream To Work With</h6>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum repudiandae culpa consequatur nulla
                         ipsa illum pariatur fugit tenetur natus aliquid?</p>
-                    <div class="Person">
+                    <div class="person">
                         <div>
-                            <img src="./images/about-image.png" alt="">
+                            <img src="./images/Image (1).png" alt="">
                         </div>
                         <div>
                             <h6>Chikelu Neo</h6>
-                            <p>CEO at MazeAI</p>
+                            <p >CEO at MazeAI</p>
                         </div>
                     </div>
                 </div>
-                <div class="PlayIcon">
-                    <a href="#"><img src="./images/play-icon.svg" alt=""></a>
-                    <h6>Play Video</h6>
-                    <div class="circleBg"></div>
+                <div class="videoImg">
+                    <div class="playIcon">
+                        <div class="iconBg">
+                             <a href="#"><img src="./images/play-icon.svg" alt=""></a>
+                        </div>
+                        <h6>Play Video</h6>
+                    </div>
                 </div>
-                <img src="./images/video-image.png" alt="">
             </article>
         </div>
     </section>
@@ -246,6 +253,8 @@
             </div>
     </section>
     <footer>
+        <div class="BottomLeft"></div> 
+        <div class="BottomRight"></div>
         <div class="container">
             <nav class="FooterTop">
                 <div class="FooterLeft">
@@ -292,8 +301,7 @@
                 </div>
         </nav>
         </div>
-        <div class="BottomLeft"></div>
-        <div class="BottomRight"></div>
+        
     </footer>
 </body>
 
