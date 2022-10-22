@@ -2,45 +2,8 @@ section:nth-child(4){
     background: #DCEAF5;
     height: 820px;
 }
-/* Header */
-.navbar {
-    display: flex;
-    height: 80px;
-    align-items: center;
-}
-h1 {
-    color: #063255;
-    width: 550px;
-    height: 28px;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-}
-nav ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    align-items: end;
-    width: 550px;
-    height: 20px;
-    justify-content: space-around;
-    font-weight: 600;
-}
-header a {
-    color: #063255;
-}
-.button {
-    padding: 15px 20px 30px 25px;
-    width: 170px;
-    height: 54px;
-    background: rgba(245, 138, 7, 0.1);
-    border-radius: 31px;
-}
-.button a {
-    color: #F58A07;
-}
 /* section 1*/
-.Header {
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -60,7 +23,7 @@ header a {
     line-height: 30px;
     width: 650px;
 }
-.Headerimg {
+.headerImg {
     background: url(../images/Image.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -79,7 +42,7 @@ header a {
 .buttons a {
     color: white;
 }
-.HeaderOrange {
+.headerOrange {
     background: #F58A07;
     mix-blend-mode: multiply;
     position: absolute;
@@ -88,26 +51,26 @@ header a {
     border-radius: 20px 0 0 20px;
 }
 /* section 2*/
-.Feature-1 {
+.feature-1 {
     display: flex;
     margin-bottom: 100px;
 }
-.Feature-2 {
+.feature-2 {
     display: flex;
     margin-bottom: 100px;
 }
-.Feature-3 {
+.feature-3 {
     display: flex;
     margin-bottom: 100px;
 }
-.Feature-4 {
+.feature-4 {
     display: flex;
     margin-bottom: 100px;
 }
-.Feature-5 {
+.feature-5 {
     display: flex;
 }
-.FeatureImg-1 {
+.featureImg-1 {
     background-image: url(../images/Feature-1.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -115,7 +78,7 @@ header a {
     height: 550px;
     position: relative;
 }
-.FeatureImg-2 {
+.featureImg-2 {
     background-image: url(../images/Feature-2.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -123,7 +86,7 @@ header a {
     height: 550px;
     position: relative;
 }
-.FeatureImg-3 {
+.featureImg-3 {
     background-image: url(../images/Feature-3.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -131,7 +94,7 @@ header a {
     height: 550px;
     position: relative;
 }
-.FeatureImg-4 {
+.featureImg-4 {
     background-image: url(../images/Feature-4.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -139,7 +102,7 @@ header a {
     height: 550px;
     position: relative;
 }
-.FeatureImg-5 {
+.featureImg-5 {
     background-image: url(../images/Feature-5.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -147,21 +110,21 @@ header a {
     height: 550px;
     position: relative;
 }
-.FeatureText {
+.featureText {
     width: 600px;
     padding: 50px
 }
-.FeatureText h3 {
+.featureText h3 {
     font-size: 47px;
 }
-.FeatureText p {
+.featureText p {
     color: #5B5B5B;
     font-size: 18px;
 }
-.FeatureText ul {
+.featureText ul {
     color: #5B5B5B;
 }
-.Orange-1{
+.orange-1{
     background: #F58A07;
     width: 95px;
     height: 97px;
@@ -171,7 +134,7 @@ header a {
     top: 150px;
     left:-40px;
 }
-.Orange-2{
+.orange-2{
     background: #F58A07;
     width: 95px;
     height: 97px;
@@ -181,7 +144,7 @@ header a {
     right: -45px;
     top: 250px;
 }
-.Orange-3{
+.orange-3{
     background: #F58A07;
     width: 95px;
     height: 97px;
@@ -191,7 +154,7 @@ header a {
     top: 250px;
     left:-40px;
 }
-.Orange-4{
+.orange-4{
     background: #F58A07;
     width: 95px;
     height: 97px;
@@ -201,7 +164,7 @@ header a {
     right: -45px;
     top: 250px;
 }
-.Orange-5{
+.orange-5{
     background: #F58A07;
     width: 95px;
     height: 97px;
@@ -211,32 +174,32 @@ header a {
     top: 250px;
     left:-40px;
 }
-.FeatureText ul{
+.featureText ul{
     list-style-type: disc;
     color: #0D1317;
     line-height: 28px;
 }
 /* section 3*/
-.BlogItem {
+.blogItem {
     display: flex;
     justify-content: space-between;
     width:1300px;
     align-items: end;
     height: 550px;
 }
-.LatestNews h6 {
+.latestNews h6 {
     font-size: 45px;
     margin: 0px;
     display: flex;
     align-items: end;
     height: 150px;
 }
-.ItemContent img{
+.itemContent img{
     border-radius: 20px 20px 0 0;
     width: 400px;
     height: 230px;
 }
-.BlogBg h6 {
+.blogBg h6 {
     font-size: 24px;
     color: #0D1317;
     font-weight: 500;
@@ -244,33 +207,33 @@ header a {
     width: 335px;
     margin: 0 0 20px 0;
 }
-.BlogBg p {
+.blogBg p {
     color: #5B5B5B;
     width: 340px;
     line-height: 30px;
 }
-.BlogButtons{
+.blogButtons{
     height: 50px;
     width: 150px;
     
 }
-.BlogButtons a {
+.blogButtons a {
     color: #F58A07;
 }
-.BlogButtons:after {
+.blogButtons:after {
     content: "\2192";
     color: #F58A07;
     margin-left: 5px;
 }
-.LatestSection{
+.latestSection{
     margin-bottom: 0;
 }
-.ItemContent{
+.itemContent{
     background: #FFFFFF;
     border-radius:20px;
     height: 507px;
     width: 400px;
 }
-.BlogBg{
+.blogBg{
     padding: 30px;
 }

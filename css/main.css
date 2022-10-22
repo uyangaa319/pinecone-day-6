@@ -9,7 +9,7 @@ section:nth-child(9){
     height: 820px;
 }
 /* section 1*/
-.Header {
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -22,25 +22,25 @@ section:nth-child(9){
     font-size: 65px;
     line-height: 70px;
     margin-top: 0;
-    width: 650px;
+    width: 100%;
 }
 .headerText p {
     color: #5B5B5B;
     line-height: 30px;
-    width: 650px;
+    width: 100%;
 }
 .buttonservice {
     display: flex;
     justify-content: space-between;
-    width: 440px;
+    width: 100%;
 }
 .buttonservice p{
-    width: 200px;
+    width: 60%;
     color: #1D3444;
 }
 .buttons {
     background: #F58A07;
-    width: 199px;
+    width: 35%;
     height: 55px;
     border-radius: 35px;
     display: flex;
@@ -55,19 +55,19 @@ section:nth-child(9){
     height: 50px;
     align-items: end;
 }
-.Headerlogos {
-    width: 500px;
+.headerlogos {
+    width: 80%;
     display: flex;
     justify-content: space-between;
 }
-.Headerimg {
+.headerimg {
     height: 620px;
-    width: 790px;
+    width:100%;
 }
 /* section 2*/
-.HelpSection h2 {
+.helpsection h2 {
     font-size: 50px;
-    width: 740px;
+    width: 60%;
     font-weight: 600;
     color: #1D3444;
     line-height: 55px;
@@ -75,50 +75,50 @@ section:nth-child(9){
     display: flex;
     align-items: end;
 }
-.HelpSection p {
+.helpsection p {
     font-size: 16px;
-    width: 740px;
+    width: 60%;
     color: #5B5B5B;
     display: flex;
     height: 80px;
     line-height: 30px;
 }
-.HelpPosts {
+.helpposts {
     display: flex;
 }
-.Help {
+.help {
     width: 500px;
 }
-.Help img {
+.help img {
     border-radius: 20px;
     width: 90%;
     height: 230px;
 }
-.Help h3 {
+.help h3 {
     font-size: 27px;
     color: #0D1317;
     font-weight: 500;
     height: 20px;
 }
-.Help p {
+.help p {
     color: #5B5B5B;
-    width: 380px;
+    width: 90%;
     line-height: 30px;
     margin-bottom: 40px;
 }
-.HelpButtons a {
+.helpbuttons a {
     color: #F58A07;
 }
-.HelpButtons:after {
+.helpbuttons:after {
     content: "\2192";
     color: #F58A07;
-    width: 35px;
+    margin-left: 5px;
 }
-.HelpButtons {
+.helpbuttons {
     height: 50px;
-    width: 130px;
+    width: 100%;
 }
-.HelpSection {
+.helpsection {
     height: 840px;
 }
 /* section 3 */
@@ -130,33 +130,34 @@ section:nth-child(9){
 }
 .mainfeaures h4 {
     font-size: 35px;
-    width: 620px;
+    width: 48%;
     color: #0D1317;
 }
 .mainfeaures p{
-    width: 620px;
+    width: 48%;
     height: 150px;
     color: #1D3444;
     font-size: 18px;
 }
-.FeauresSquare {
+.feaures {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.feauressquare {
     background: #FFFFFF;
     width: 400px;
     height: 280px;
     border-radius: 20px;
     padding:40px ;
 }
-.Feaures {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.FeauresSquare img {
-    width: 43px;
+
+.feauressquare img {
+    width: 15%;
     height: 40px;
     margin-bottom: 10px;
 }
-.FeauresSquare h4 {
+.feauressquare h4 {
     font-size: 25px;
     color: #0D1317;
     height: 50px;
@@ -164,24 +165,23 @@ section:nth-child(9){
     margin: 5px 0;
 
 }
-.FeauresSquare p {
+.feauressquare p {
     line-height: 28px;
-    width: 300px;
+    width: 95%;
     margin-top: 0;
 }
 /*  section 4 ehlew */
-.AboutSection {
+.aboutsection {
     display: flex;
     height: 667px;
     align-items: center;
-    width: 1280px;
 }
-.AboutText {
+.abouttext {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
-.AboutText h5 {
+.abouttext h5 {
     width: 90%;
     line-height: 52px;
     font-size: 45px;
@@ -189,31 +189,33 @@ section:nth-child(9){
     font-weight: 600;
     color: #0D1317;
 }
-.AboutText p {
+.abouttext p {
     width: 90%;
     line-height: 25px;
     margin: 0;
     color: #5B5B5B;
 }
-.AboutFeature {
+.aboutfeature {
     display: flex;
     width: 90%;
     justify-content: space-between;
     height: 400px;
 }
-.Aboutt h5 {
+.abouttop h5{
     color: #F58A07;
     font-family: 'Inter', sans-serif;
     font-size: 35px;
 }
-.Aboutt h6 {
+.abouttop h6{
     color: #0D1317;
     font-size: 25px;
+    margin: 0;
 }
-.Aboutt p {
+.abouttop p{
     line-height: 28px;
+    margin-top: 20px;
 }
-.AboutImg{
+.aboutimg{
     background: url(../images/about-image.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -230,24 +232,24 @@ section:nth-child(9){
     border-radius: 20px 0 0 20px;
 }
 /* section 5 */
-.serviceSection {
+.servicesection {
     position: relative;
     background-color: #DCEAF5;
     border-radius: 20px;
     height: 650px;
 }
-.serviceSection .ribbon {
+.servicesection .ribbon {
     position: absolute;
     top:-15px;
     right:-15px;
 }
-.innerService {
+.innerservice {
     display: flex;
     width: 100%;
     align-items: end;
     justify-content: space-around;
 }
-.serviceImg {
+.serviceimg {
     background: url(../images/team.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -255,20 +257,20 @@ section:nth-child(9){
     height: 460px;
     margin-right: 45px;
 }
-.serviceSection ul {
+.servicesection ul {
     display: flex;
-    width: 550px;
+    width: 50%;
     padding: 50px 0 0 0;
     justify-content: space-around;
     margin-left: 35px;
 }
-.serviceSection li {
+.servicesection li {
     color: rgba(6, 50, 85, 0.3);
     border: 1px solid #A8BCCC;
     border-radius: 30px;
     padding: 5px 20px;
 }
-.serviceText h6 {
+.servicetext h6 {
     line-height: 55px;
     font-size: 45px;
     color: #0D1317;
@@ -276,25 +278,25 @@ section:nth-child(9){
     margin: 50px 0 30px 0;
     width: 550px;
 }
-.serviceText p {
+.servicetext p {
     line-height: 28px;
     width: 510px;
     margin-bottom: 30px;
 }
-.serviceButton {
+.servicebutton {
     height: 40px;
     width: 170px;
 }
-.serviceButton:after {
+.servicebutton:after {
     content: "\2192";
     color: #F58A07;
     width: 30px;
 }
-.serviceButton a {
+.servicebutton a {
     color: #F58A07;
     margin-right: 10px;
 }
-.serviceOrange{
+.serviceorange{
     background: #F58A07;
     mix-blend-mode: multiply;
     position: absolute;
@@ -302,38 +304,38 @@ section:nth-child(9){
     height: 460px; 
     border-radius: 20px 0 0 20px;
 }
-.serviceSection .serviceList{
+.servicesection .servicelist{
     color: #F58A07; 
     background-color:#FFFFFF;  
     border: solid #FFFFFF 1px;
 }
 /* section 6 */
-.CTASection{
+.ctasection{
     display: flex;
 }
-.CTALeft{
+.ctaleft{
     background: url(../images/experience-image.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
     height: 620px;
 }
-.CTARight{
+.ctaright{
     background: #F58A07;
     width: 50%;
     height: 620px;
     padding:130px 160px 160px 160px;
 }
-.CTARight h2{
+.ctaright h2{
     color: white;
     font-size: 48px;
     width: 500px;
     font-weight: 600;
 }
-.CTAButton a{
+.ctabutton a{
     color: #F58A07;
 } 
-.CTAButton{
+.ctabutton{
     width: 250px;
     height: 50px;
     background: white;
@@ -343,12 +345,12 @@ section:nth-child(9){
     align-items: center;
 }
 /* section 7 */
-.videoSection {
+.videosection {
     display: flex;
     height: 500px;
     align-items: center;
 }
-.videoImg {
+.videoimg {
     background: url(../images/video-image.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -357,16 +359,17 @@ section:nth-child(9){
     display: flex;
     align-items: flex-end;
 }
-.videoLeft h6 {
+.videoleft h6 {
     font-size: 45px;
-    width: 550px;
+    width: 80%;
     margin: 0 ;
     line-height: 57px;
 }
-.videoLeft p {
+.videoleft p {
     font-size: 18px;
     width: 550px;
     line-height: 30px;
+    margin: 30px 0;
 }
 .person {
     display: flex;
@@ -391,11 +394,11 @@ section:nth-child(9){
     color: #063255;
     font-weight: 500;
 }
-.playIcon{
+.playicon{
     display: flex;
     margin:0 0 20px 30px;
 }
-.playIcon h6 {
+.playicon h6 {
     color: #FFFFFF;
     font-weight: 600;
     width: 100px;
@@ -403,12 +406,12 @@ section:nth-child(9){
     font-size: 18px;
     margin: 10px;
 }
-.playIcon img{
+.playicon img{
     width: 17px;
     height: 17px;
     
 }
-.iconBg{
+.iconbg{
     background-color: #FFFFFF;
     border-radius: 50%;
     width: 50px;
@@ -418,23 +421,23 @@ section:nth-child(9){
     justify-content: center;
 }
 /* section 8*/
-.BlogItem {
+.blogitem {
     display: flex;
     justify-content: space-between;
     align-items: end;
     height: 550px;
 }
-.LatestNews h6 {
+.latestnews h6 {
     font-size: 45px;
     margin: 0px;
     display: flex;
     align-items: end;
     height: 150px;
 }
-.ItemContent img{
+.itemcontent img{
     border-radius: 20px 20px 0 0;
 }
-.BlogBg h6 {
+.blogbg h6 {
     font-size: 24px;
     color: #0D1317;
     font-weight: 500;
@@ -442,33 +445,32 @@ section:nth-child(9){
     width: 335px;
     margin: 0 0 20px 0;
 }
-.BlogBg p {
+.blogbg p {
     color: #5B5B5B;
     width: 340px;
     line-height: 30px;
 }
-.BlogButtons{
+.blogbuttons{
     height: 50px;
-    width: 150px;
-    
+    width: 150px; 
 }
-.BlogButtons a {
-    color: #F58A07;
+.blogbuttons a {
+    color: #F58A07; 
 }
-.BlogButtons:after {
+.blogbuttons:after {
     content: "\2192";
     color: #F58A07;
     margin-left: 5px;
 }
-.LatestSection{
+.latestsection{
     margin-bottom: 0;
 }
-.ItemContent{
+.itemcontent{
     background: #FFFFFF;
     border-radius:20px;
-    height: 507px;
+    height: 530px;
     width: 400px;
 }
-.BlogBg{
-    padding: 30px;
+.blogbg{
+    padding: 25px;
 }

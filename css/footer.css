@@ -4,14 +4,14 @@ footer {
     color: aliceblue;
     position: relative;
 }
-.FooterTop {
+.footertop {
     display: flex;
     height: 350px;
     align-items: center;
     justify-content: space-between;
     width: 100%;
 }
-.FooterTop h6 {
+.footertop h6 {
     font-size: 18px;
     margin-bottom: 20px;
 }
@@ -23,20 +23,20 @@ footer ol {
 footer a {
     color: aliceblue;
 }
-.FooterLeft{
+.footerleft{
     width: 350px;
     height: 100px;
 }
-.FooterLeft p {
+.footerleft p {
     font-size: 35px;
     font-weight: 600;
     line-height: 40px;
 }
-.Company{
+.company{
     width:95px ;
     height: 200px;
 }
-.Connect{
+.connect{
     width:150px;
     height: 200px;
 }
@@ -44,18 +44,17 @@ footer a {
     width: 350px;
     height: 200px;
 }
-.Input p{
+.inputsub{
     background: #FFFFFF;
     color: #9C9C9C;
     width: 350px;
     height: 50px;
     border-radius: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
     padding-left: 30px;
+    border: 0;
+    font-size: 16px;
 }
-.FooterButton p{
+.footerbutton p{
     background: #F58A07;
     width: 160px;
     height: 55px;
@@ -64,17 +63,17 @@ footer a {
     align-items: center;
     justify-content: center;
 }
-.FooterBottom {
+.footerbottom {
     display: flex;
     justify-content: space-between;
     padding: 30px;
 }
-.FooterLink {
+.footerlink {
     display: flex;
     width: 300px;
     justify-content: space-between;
 }
-.BottomText:before{
+.bottomtext:before{
     content: "\00A9";
     margin-right: 5px;
 }
@@ -86,7 +85,7 @@ footer a {
     height: 140px;
     display: flex;
 }
-.BottomLeft{
+.bottomleft{
     background: #F58A07;
     width: 60px;
     height: 150px;
@@ -94,7 +93,7 @@ footer a {
     border-radius: 0 30px 0 0 ;
     bottom: 0;
 }
-.BottomRight{
+.bottomright{
     background: #F58A07;
     width: 55px;
     height: 290px;
