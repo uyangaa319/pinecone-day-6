@@ -1,0 +1,85 @@
+.contactHeader{
+    display: flex;
+    margin-top: 50px;
+}
+.contactLeft h2{
+    width: 570px;
+    font-size: 48px;
+    color: #1D3444;
+}
+.contactLeft p{
+    width: 530px;
+    color: #5B5B5B;
+    font-size: 18px;
+}
+.contactRight{
+    display: flex;
+    justify-content: space-between;
+    width: 505px;
+    align-items: center;
+    margin-left: 70px;
+}
+.location{
+    width: 300px;
+}
+.contact{
+    width: 160px;
+}
+.contactRight h3{
+    font-size: 24px;
+    color: #0D1317;
+    font-weight: 500;
+}
+.contactRight p{
+    color: #5B5B5B;
+    font-size: 18px;
+    line-height: 30px;
+}
+/*Section 2*/
+.contactSection{
+    display: flex;
+    justify-content: space-between;
+}
+.input{
+    background: #D2DAED2B;
+    width: 610px;
+    height: 60px;
+    border-radius: 30px;
+}
+.inputItem{
+    color: #9C9C9C;
+    font-family: 'Inter', sans-serif;
+    padding: 17px 30px;
+    height: 55px;
+}
+.inputmessage{
+    background: #D2DAED2B;
+    width: 610px;
+    height: 160px;
+    border-radius: 30px;
+}
+.message{
+    color: #9C9C9C;
+    font-family: 'Inter', sans-serif;
+    padding: 17px 30px;
+    height: 160px;
+}
+
+.map img{
+    border-radius: 30px;
+    width: 620px;
+    height: 390px;
+    margin-top: 15px;
+}
+.contactbutton{
+    background: #F58A07;
+    width: 120px;
+    height: 55px;
+    border-radius: 30px;
+    padding: 14px 30px;
+    margin-top: 50px;
+}
+.contactbutton a{
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+}
