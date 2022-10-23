@@ -18,14 +18,14 @@
     margin: auto;
 }
 .blogText h3 {
-    font-size: 65px;
+    font-size: 4rem;
     line-height: 70px;
     color: #1D3444;
     margin: 30px 0;
 }
 
 .blogText h4 {
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 55px;
     margin-bottom: 30px;
 }

@@ -4,7 +4,7 @@
 }
 .contactLeft h2{
     width: 570px;
-    font-size: 48px;
+    font-size: 3rem;
     color: #1D3444;
 }
 .contactLeft p{
@@ -26,7 +26,7 @@
     width: 160px;
 }
 .contactRight h3{
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #0D1317;
     font-weight: 500;
 }

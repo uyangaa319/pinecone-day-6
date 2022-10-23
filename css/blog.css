@@ -27,7 +27,7 @@ section:nth-child(2){
 }
 .headerText h3{
     color: #1D3444;
-    font-size: 64px;
+    font-size: 4rem;
     width: 550px;
     line-height: 70px;
     margin: 0 0 40px 0;
@@ -52,7 +52,7 @@ section:nth-child(2){
     justify-content: space-between;
 }
 .latestSection h4{
-    font-size: 48px;
+    font-size: 3rem;
 }
 .blogItem{
     background: #EDF7FF;
@@ -65,7 +65,7 @@ section:nth-child(2){
     border-radius:20px 20px 0 0;
 }
 .blogContent h5{
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #0D1317;
     font-weight: 500;
     height: 72px;
