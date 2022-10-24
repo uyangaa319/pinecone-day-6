@@ -93,6 +93,9 @@ section:nth-child(9){
     width: 90%;
     height: 230px;
 }
+.help img:hover{
+    box-shadow: 10px 10px 10px orange;
+}
 .help h3 {
     font-size: 1.7rem;
     color: #0D1317;

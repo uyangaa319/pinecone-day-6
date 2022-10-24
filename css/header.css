@@ -20,6 +20,9 @@ nav ul {
     justify-content: space-around;
     font-weight: 600;
 }
+nav a:hover{
+    color: #F58A07;
+}
 header a {
     color: #063255;
 }
